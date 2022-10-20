@@ -1,0 +1,184 @@
+:root{
+    --primario: #0097a7;
+    --rojo: #C70000;
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --gris: #757575;
+}
+
+/* Generales */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{ 
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisazulado) 0%, var(--blanco) 100%);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto; 
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    padding: 2rem;
+    background-color: var(--blanco);
+    margin-top: 1rem;
+    border-radius: 5rem;
+}
+
+.formulario{
+    display: flex;
+}
+
+.contenido{
+    width: 50%;
+}
+
+.imagen{
+    display: flex;
+}
+
+.imagen img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles{
+    display: block;
+    padding-left: 10rem;
+    width: 50%;
+}
+
+.sign-with {
+    display: flex;
+}
+
+.sign-with p{
+    color: var(--gris);
+    margin-right: 3rem;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.opcion-sign{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--primario);
+    border-radius: 100%;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+.opcion-sign .iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--primario);
+    border-radius: 100%;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+.leyenda{
+    text-align: center;
+    font-weight: bold;
+}
+
+.datos fieldset{
+    margin-top: 3rem;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: gray;
+
+}
+
+.datos{
+    border: none;
+}
+
+.etiqueta-campo-w66 input{
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.extra{
+    position: relative;
+}
+
+.remember{
+    display: flex;
+}
+
+.remember p{
+    cursor: pointer;
+    color: var(--gris);
+    margin-left: 1rem;
+}
+
+.forgot{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.forgot a{
+    color: var(--gris);
+    text-decoration: none;
+}
+
+.register p{
+    color: var(--gris);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.register span{
+    color: var(--rojo);
+    font-weight: bold;
+}
+
+
+ .boton a{
+    background-color: var(--primario);
+    width: 25%;
+    height: 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: auto;
+    height: 3rem;
+    margin-top: 0;
+    display: flex;
+    text-decoration: none;
+}
+
+.btn-login p{
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+ }
